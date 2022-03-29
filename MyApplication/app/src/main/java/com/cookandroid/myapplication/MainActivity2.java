@@ -23,12 +23,6 @@ import java.util.Date;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MainActivity2 extends AppCompatActivity {
-    String etName = "Mudra";            // bot name
-    CircleImageView ivProfile;
-    //TextView myname = (TextView) findViewById(R.id.tv_name);
-
-
-    Uri imgUri;     //프로필 이미지 경로 uri (for bot)
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(
                         getApplicationContext(),
                         Chatting.class);
-                startActivity(intent);      // 화면 넘어감
+                startActivity(intent);      // 다음 화면으로 넘어감
             }
         });
 
@@ -53,14 +47,8 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(
                         getApplicationContext(),
                         Chatting.class);
-                startActivity(intent);      // 화면 넘어감
+                startActivity(intent);      // 다음 화면으로 넘어감
             }
         });
     }
-
-    void saveData(){
-        //G.nickName = myname.toString();     // 사용자이름 or 봇이름
-
-    }
-
 }

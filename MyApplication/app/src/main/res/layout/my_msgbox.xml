@@ -16,10 +16,10 @@
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="me"
-        android:textColor="#333333"
+        android:layout_marginRight="16dp"
         android:layout_toLeftOf="@+id/iv"
-        android:layout_marginRight="16dp"/>
+        android:text="me"
+        android:textColor="#333333" />
 
     <TextView
         android:id="@+id/tv_msg"
@@ -34,13 +34,14 @@
         android:text="Hello Mdura"
         android:textColor="#ffffff"
         tools:ignore="UnknownIdInLayout" />
+
     <TextView
         android:id="@+id/tv_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="13:35"
-        android:textSize="12sp"
-        android:layout_toLeftOf="@+id/tv_msg"
+        android:layout_alignBottom="@id/tv_msg"
         android:layout_marginRight="8dp"
-        android:layout_alignBottom="@id/tv_msg"/>
+        android:layout_toLeftOf="@+id/tv_msg"
+        android:text="13:35"
+        android:textSize="12sp" />
 </RelativeLayout>

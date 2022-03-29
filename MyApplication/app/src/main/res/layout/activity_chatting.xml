@@ -37,6 +37,7 @@
                 android:textColor="@color/white"
                 android:layout_weight="1"
                 android:paddingLeft="15dp"
+                android:enabled="false"
                 />
 
             <Button
@@ -49,31 +50,32 @@
                 android:textColor="@color/white"
                 android:layout_weight="1"
                 android:paddingRight="15dp"
+                android:enabled="false"
                 />
 
-            <Button
-                android:id="@+id/neutBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Umm.."
-                android:textSize="20dp"
-                android:backgroundTint="#191970"
-                android:textColor="@color/white"
-                android:layout_weight="1"
-                android:paddingRight="15dp"
-                />
+<!--            <Button-->
+<!--                android:id="@+id/neutBtn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Umm.."-->
+<!--                android:textSize="20dp"-->
+<!--                android:backgroundTint="#191970"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingRight="15dp"-->
+<!--                />-->
 
-            <Button
-                android:id="@+id/chatBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="답변하기"
-                android:textSize="19dp"
-                android:backgroundTint="#000000"
-                android:textColor="@color/white"
-                android:layout_weight="1"
-                android:paddingRight="15dp"
-                />
+<!--            <Button-->
+<!--                android:id="@+id/chatBtn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="답변하기"-->
+<!--                android:textSize="19dp"-->
+<!--                android:backgroundTint="#000000"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_weight="1"-->
+<!--                android:paddingRight="15dp"-->
+<!--                />-->
 
         </LinearLayout>
 
