@@ -1,12 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # # 네이버 영화 크롤링
 
 # 제목
-
-# In[2]:
-
 
 import pandas as pd
 from urllib.request import urlopen
@@ -42,8 +37,6 @@ df_new
 
 
 # 감독
-
-# In[4]:
 
 
 directors = []
@@ -81,8 +74,6 @@ df1_new
 
 # 개봉일
 
-# In[5]:
-
 
 dates = []
 
@@ -118,8 +109,6 @@ df2_new
 
 # 등급
 
-# In[ ]:
-
 
 grade = []
 
@@ -146,8 +135,6 @@ df3_new
 
 
 # 장르
-
-# In[ ]:
 
 
 genre = []
@@ -182,8 +169,6 @@ df4_new
 
 
 # 배우
-
-# In[ ]:
 
 
 actors=[]
@@ -221,7 +206,6 @@ df5_new
 
 # 줄거리
 
-# In[ ]:
 
 
 story = []
@@ -264,18 +248,5 @@ df6=pd.DataFrame(key_words)
 df6['key_words']=df6[0].map(str)+","+df6[1].map(str)+","+df6[2].map(str)+","+df6[3].map(str)+","+df6[4].map(str)
 df6_new=df6.drop([0,1,2,3,4],axis=1)
 df6_new
-
-
-# In[ ]:
-
-
-# result = pd.concat([df_new,df1_new,df2_new,df3_new,df4_new,df5_new,df6_new],axis=1)
-
-# result.to_csv('1101-1150.csv',index=False,encoding="utf-8") #엑셀 변환
-
-
-# In[ ]:
-
-
 
 
